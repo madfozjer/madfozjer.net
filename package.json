@@ -1,0 +1,14 @@
+{
+  "name": "madfozjer.net",
+  "version": "a0.1",
+  "description": "madfozjer.net is the place to waste your time reading about (not) succesful dev mitri di fozjer",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tailwindcss -i ./src/input.css -o ./dist/style.css --watch"
+  },
+  "author": "madfozjer",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "tailwindcss": "^3.4.9"
+  }
+}
