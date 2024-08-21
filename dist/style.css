@@ -554,6 +554,11 @@ video {
   --tw-contain-style:  ;
 }
 
-body {
-  font-family: 'Roboto Mono', monospace;
+.italic {
+  font-style: italic;
+}
+
+.text-purple-500 {
+  --tw-text-opacity: 1;
+  color: rgb(168 85 247 / var(--tw-text-opacity));
 }

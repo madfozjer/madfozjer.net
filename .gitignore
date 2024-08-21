@@ -1,1 +1,7 @@
 node_modules/
+
+#my todo list
+todo.text
+
+#my vsc workspace file
+madfozjer.net.code-workspace
