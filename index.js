@@ -14,4 +14,11 @@ app.get('/', (req, res) => {
     });
 });
 
+app.get('/another-page', (req, res) => {
+    fs.readFile('dist/another-page.html', 'utf8', (err, html) => {
+        if (err) { console.error(err); }
+        res.send(html);
+    });
+});
+
 console.log('App is online on http://localhost:8080'); app.listen(8080);

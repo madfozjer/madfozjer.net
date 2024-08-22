@@ -4,7 +4,9 @@
   "description": "madfozjer.net is the place to waste your time reading about (not) succesful dev mitri di fozjer",
   "main": "index.js",
   "scripts": {
-    "dev": "tailwindcss -i ./public/input.css -o ./dist/style.css --watch"
+    "style": "tailwindcss -i ./public/input.css -o ./dist/style.css --watch",
+    "init-server": "start node index.js",
+    "dev":"npm run init-server && npm run style "
   },
   "author": "madfozjer",
   "license": "UNLICENSED",

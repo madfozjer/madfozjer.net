@@ -2,7 +2,13 @@
 module.exports = {
   content: ["./dist/*.{html,js}"],
   theme: {
-    extend: {},
-  },
+    extend: {
+    fontFamily: {
+      'ibm-plex':['"IBM Plex Mono"', 'monospace'],
+      'test':['"Xanh Mono"', 'monospace'],
+      'ubuntu':['"Ubuntu Mono"', 'monospace'],
+    }
+  },},
   plugins: [],
+  
 }
