@@ -8,3 +8,9 @@
     border: 2px red solid;
     }
 }
+
+#banner {
+    border: 1px white solid;
+    background-color: blue;
+    color: yellow;
+}
