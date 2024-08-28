@@ -636,14 +636,6 @@ video {
   min-width: 100%;
 }
 
-.grid-cols-3{
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
-.grid-rows-3{
-  grid-template-rows: repeat(3, minmax(0, 1fr));
-}
-
 .flex-col{
   flex-direction: column;
 }
@@ -808,6 +800,10 @@ video {
   color: rgb(250 204 21 / var(--tw-text-opacity));
 }
 
+.border-test {
+  border: 2px red solid;
+}
+
 #banner {
   border: 1px white solid;
   background-color: blue;
@@ -818,16 +814,8 @@ video {
   content: "Slava Ukraini!";
 }
 
-@media (min-width: 640px){
-  .sm\:text-green-300{
-    --tw-text-opacity: 1;
-    color: rgb(134 239 172 / var(--tw-text-opacity));
-  }
-}
-
-@media (min-width: 0){
-  .xsm\:text-green-300{
-    --tw-text-opacity: 1;
-    color: rgb(134 239 172 / var(--tw-text-opacity));
-  }
+.table-responsive {
+  grid-template-columns: repeat(3, minmax(240px, 1fr));
+  grid-template-rows: repeat(3, minmax(240px, 1fr));
+  border: 3px red solid;
 }

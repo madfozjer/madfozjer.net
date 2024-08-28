@@ -18,3 +18,9 @@
 #banner::before {
     content: "Slava Ukraini!";
 }
+
+.table-responsive {
+    grid-template-columns: repeat(3, minmax(240px, 1fr));
+    grid-template-rows: repeat(3, minmax(240px, 1fr));
+    border: 3px red solid;
+  }
