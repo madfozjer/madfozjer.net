@@ -608,12 +608,24 @@ video {
   margin-top: 1.25rem;
 }
 
+.mt-8{
+  margin-top: 2rem;
+}
+
+.inline-block{
+  display: inline-block;
+}
+
 .inline{
   display: inline;
 }
 
 .flex{
   display: flex;
+}
+
+.inline-flex{
+  display: inline-flex;
 }
 
 .grid{
@@ -742,6 +754,18 @@ video {
   padding-top: 1.25rem;
 }
 
+.pt-4{
+  padding-top: 1rem;
+}
+
+.pl-2{
+  padding-left: 0.5rem;
+}
+
+.pl-0{
+  padding-left: 0px;
+}
+
 .font-ibm-plex{
   font-family: "IBM Plex Mono", monospace;
 }
@@ -802,6 +826,10 @@ video {
 .text-yellow-400{
   --tw-text-opacity: 1;
   color: rgb(250 204 21 / var(--tw-text-opacity));
+}
+
+.border-test {
+  border: 2px red solid;
 }
 
 #banner {
