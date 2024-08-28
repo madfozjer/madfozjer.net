@@ -612,20 +612,12 @@ video {
   margin-top: 2rem;
 }
 
-.inline-block{
-  display: inline-block;
-}
-
 .inline{
   display: inline;
 }
 
 .flex{
   display: flex;
-}
-
-.inline-flex{
-  display: inline-flex;
 }
 
 .grid{
@@ -754,18 +746,6 @@ video {
   padding-top: 1.25rem;
 }
 
-.pt-4{
-  padding-top: 1rem;
-}
-
-.pl-2{
-  padding-left: 0.5rem;
-}
-
-.pl-0{
-  padding-left: 0px;
-}
-
 .font-ibm-plex{
   font-family: "IBM Plex Mono", monospace;
 }
@@ -828,12 +808,12 @@ video {
   color: rgb(250 204 21 / var(--tw-text-opacity));
 }
 
-.border-test {
-  border: 2px red solid;
-}
-
 #banner {
   border: 1px white solid;
   background-color: blue;
   color: yellow;
+}
+
+#banner::before {
+  content: "Slava Ukraini!";
 }

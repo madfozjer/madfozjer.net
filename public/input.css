@@ -14,3 +14,7 @@
     background-color: blue;
     color: yellow;
 }
+
+#banner::before {
+    content: "Slava Ukraini!";
+}
