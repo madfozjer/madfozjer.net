@@ -12,82 +12,88 @@
         }
     </style>
 </head>
-    <body class="bg-gray-900 font-ibm-plex"> 
+    <body class="bg-gray-900 font-ibm-plex text-xl"> 
     <!--<div id="background">
         <video autoplay muted loop class="fixed right-0 bottom-0 min-w-full min-h-full -z-10">
             <source src="static/global-images/darkmode_bg.mp4" type="video/mp4">
           </video>
     </div>-->
-    <div id="wrapper" class="border-2 border-b-gray-800">
-        <main class="grid table-responsive">
-        <div class="flex flex-col justify-between place-self-center ml-40 p-4 border-0 border-l-2 text-3xl gap-1 
-        // xsm:text-xl xsm:ml-5 xsm:p-0 xsm:pl-2">
-            <div class="xsm:text-xl"><span class="text-yellow-400">front-end</span> skills</div>
-            <div class="flex gap-2 text-2xl">
+    <div id="wrapper">
+        <main class="flex flex-col text-base"> <!-- grid table-responsive -->
+            <div class="place-self-center row-span-3">
+                <div class="ml-10 mt-4 mr-4 pl-1 border-l-2 border-dotted text-xs">
+                    hello there👋! <br>
+                    i'm <b>mitri di fozjer (madfozjer) aka fozjer</b> <br>
+                    i'm <b>webdev && ux/gamedev</b> enthusiast💻. what does it mean❔    
+                    that means i'm interested in <b>developing exceptional user experiences in forms of apps and videogames.</b>
+                    i have a lot of ideas how to develop better products and i'm actively learning new skills to create this apps. 
+                    in my free time i'm huge gamer (hero shooters, indie adventures) and i love analysing art and game design 🎦
+                </div>
+                <div id="contacts" class="ml-10 mt-2">
+                     contacts: 
+                    <a href="https://github.com/madfozjer" class="mt-8 inline"><img src="https://skillicons.dev/icons?i=github" class="inline"></a>
+                    <a href="https://discord.com/users/512614204814000168" class="mt-8 inline"><img src="https://skillicons.dev/icons?i=discord" class="inline"></a>
+                    <a href="https://x.com/secondvahn" class="mt-8 inline"><img src="https://skillicons.dev/icons?i=twitter" class="inline"></a>
+                    <a href="https://t.me/madfoz" class="mt-8 inline"><img src="static/global-images/telegram-ico.svg" class="inline" width="48" height="48"></a>
+                </div>
+            </div>   
+        <div class="flex flex-col justify-between ml-10 border-0 border-l-2 gap-1 mt-5 p-0 pl-2">
+            <div class="text-xl"><span class="text-yellow-400">front-end</span> skills</div>
+            <div class="flex gap-2">
                 <img src="https://skillicons.dev/icons?i=html">
                  <img src="https://skillicons.dev/icons?i=js">
                 <img src="https://skillicons.dev/icons?i=tailwind">
-                <span class="self-center 2xl:text-2xl text-2xl xsm:text-xs"><a href="#front-end">(read more..)</a></span>
+                <span class="self-center text-xs"><a href="#front-end">(read more..)</a></span>
             </div>
         </div>
-        <div class="place-self-center border-test"></div>
-        <div class="place-self-center row-span-3">
-            <div class="pl-4 pr-6 border-l-2 border-dotted">
-                hello there👋! <br>
-                i'm <b>mitri di fozjer (madfozjer) aka fozjer</b> <br>
-                i'm <b>webdev && ux/gamedev</b> enthusiast💻. what does it mean❔    
-                that means i'm interested in <b>developing exceptional user experiences in forms of apps and videogames.</b>
-                i have a lot of ideas how to develop better products and i'm actively learning new skills to create this apps. 
-                in my free time i'm huge gamer (hero shooters, indie adventures) and i love analysing art and game design 🎦
-            </div>
-            <div id="contacts" class="">
-                 contacts: 
-                <a href="https://github.com/madfozjer" class="mt-8 inline"><img src="https://skillicons.dev/icons?i=github" class="inline"></a>
-                <a href="https://discord.com/users/512614204814000168" class="mt-8 inline"><img src="https://skillicons.dev/icons?i=discord" class="inline"></a>
-                <a href="https://x.com/secondvahn" class="mt-8 inline"><img src="https://skillicons.dev/icons?i=twitter" class="inline"></a>
-                <a href="https://t.me/madfoz" class="mt-8 inline"><img src="static/global-images/telegram-ico.svg" class="inline" width="48" height="48"></a>
-            </div>
-        </div>
-        <div class="flex flex-col justify-between place-self-center ml-32 mb-20 p-4 border-0 border-r-2 text-3xl gap-1">
-            <div class=""><span class="text-blue-400">back-end</span> skills</div>
+        <div class="place-self-center"></div>
+        <div class="flex flex-col justify-between ml-10 border-0 border-l-2 gap-1 mt-5 p-0 pl-2">
+            <div class="text-xl"><span class="text-blue-400">back-end</span> skills</div>
             <div class="flex gap-2 text-2xl xsm:text-red-500">
                 <img src="https://skillicons.dev/icons?i=nodejs">   
-                <span class="self-center"><a href="#back-end">(more info..)</a></span>
+                <span class="self-center text-xs"><a href="#back-end">(more info..)</a></span>
             </div>
         </div>
-        <div class="flex flex-col place-self-center  content-start">
-            <div class="text-6xl self-center font-ubuntu" onmouseover="madfoz_hover(event)" onmouseleave="madfoz_leave(event)"><h1>madfoz<span class="text-5xl">j</span>er</h1></div>
-            <div class="text-1xl self-center pt-1">ukrainian <span class="text-purple-400">webdev</span> && <span class="text-green-300">gamedev/ux</span> enthusiast 🎮</div>
+        <div class="flex flex-col order-first mt-5 justify-center"> <!-- flex flex-col place-self-center  content-start // for pc -->
+            <div class="text-4xl self-center font-ubuntu" onmouseover="madfoz_hover(event)" onmouseleave="madfoz_leave(event)"><h1>madfoz<span class="text-4xl">j</span>er</h1></div>
+            <div class="text-xs self-center">ukrainian <span class="text-purple-400">webdev</span> && <span class="text-green-300">gamedev/ux</span> enthusiast 🎮</div>
         </div>
-        <div class="flex flex-col justify-between place-self-center ml-16 mb-48 p-4 border-0 border-t-2 text-3xl gap-1">
-            <div class=""><span class="text-red-400">additional</span> skills</div>
+        <div class="flex flex-col justify-between ml-10 border-0 border-l-2 gap-1 mt-5 p-0 pl-2">
+            <div class="text-xl"><span class="text-red-400">additional</span> skills</div>
             <div class="flex gap-2 text-2xl">
                 <img src="https://skillicons.dev/icons?i=cs">
                 <img src="https://skillicons.dev/icons?i=linux">
-                <span class="self-center"><a href="#additional-skills">(and more..)</a></span>
+                <span class="self-center text-xs"><a href="#additional-skills">(and more..)</a></span>
             </div>
         </div>
         <div class="place-self-center"></div>
         <div class="place-self-center"></div>
         </main>
-        <div id="banner" class="h-auto pt-5 pb-5 .banner flex justify-center text-4xl"></div>
+        <div id="banner" class="h-auto pt-5 pb-5 .banner flex justify-center text-3xl mt-4"></div>
     </div>
-    <div id="additional" class="mt-4 ml-40">
-    <div id="current-setup" class="inline mt-4">
-        current setup: <img src="https://skillicons.dev/icons?i=html" class="inline"> <img src="https://skillicons.dev/icons?i=tailwind" class="inline"> <img src="https://skillicons.dev/icons?i=js" class="inline">
-        <img src="https://skillicons.dev/icons?i=nodejs" class="inline"> <img src="https://skillicons.dev/icons?i=nginx" class="inline"> <br>
-        made on:  <img src="https://skillicons.dev/icons?i=windows" class="inline"> <img src="https://skillicons.dev/icons?i=vscode" class="inline"> <img src="https://skillicons.dev/icons?i=github" class="inline">
+    <div id="additional" class="mt-4">
+    <div id="current-setup" class="inline-block text-xs ml-4">
+        current setup: <img src="https://skillicons.dev/icons?i=html" class="inline"> 
+        <img src="https://skillicons.dev/icons?i=tailwind" class="inline"> 
+        <img src="https://skillicons.dev/icons?i=js" class="inline">
+        <img src="https://skillicons.dev/icons?i=nodejs" class="inline"> 
+        <img src="https://skillicons.dev/icons?i=nginx" class="inline"> <br>
     </div> 
-    <div id="front-end">
-        <div class="text-4xl pb-1 mt-5">FRONT-END SKILLS:</div>
-        <div class="flex text-2xl gap-2">
-            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img class="pl-1" src="https://skillicons.dev/icons?i=html"></a>
-            <div class="text-2xl font-light self-center" style="word-spacing: -8px;">[HTML5] my level of html5 is solid <b>basics</b>, but it's enough to build 
+    <div id="made-on setup" class="inline-block mt-2 text-xs ml-4">
+        made on:  <img src="https://skillicons.dev/icons?i=windows" class="inline"> 
+        <img src="https://skillicons.dev/icons?i=vscode" class="inline"> 
+        <img src="https://skillicons.dev/icons?i=github" class="inline">
+    </div> 
+    <div id="front-end" class="inline-block ml-4">
+        <div class="text-2xl mt-6">FRONT-END SKILLS:</div>
+        <div class="flex text-xl gap-2">
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" class="hidden"><img class="pl-1" src="https://skillicons.dev/icons?i=html"></a>
+            <div class="font-light self-center" style="word-spacing: -2px;">- <b class="text-orange-600">[<span class="text-white">HTML5</span>]</b> my level of html5 is solid <b>basics</b>, but it's enough to build 
              basic structures</div>
         </div>
-        <div class="flex text-2xl gap-2 pt-2">
-            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img class="pl-1" src="https://skillicons.dev/icons?i=js"></a>
-            <div class="text-2xl font-light self-center" style="word-spacing: -8px;">[JavaScript] my vanilla js skills are <b>basic</b>, but i'm quick learner</div>
+        <div class="flex text-xl gap-2 pt-2">
+            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" class="hidden"><img class="pl-1" src="https://skillicons.dev/icons?i=js"></a>
+            <div class="font-light self-center" style="word-spacing: -2px;">- <b class="text-yellow-400">[<span class="text-white">JavaScript</span>]</b> my vanilla js skills are <b>basic</b>, but i'm quick learner</div>
         </div>
         <div class="flex text-2xl gap-2 pt-2">
             <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img class="pl-1" src="https://skillicons.dev/icons?i=css"></a>
