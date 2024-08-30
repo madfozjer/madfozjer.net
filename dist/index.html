@@ -21,16 +21,16 @@
     <div id="wrapper">
         <main class="flex flex-col text-base"> <!-- grid table-responsive -->
             <div class="place-self-center row-span-3">
-                <div class="ml-10 mt-4 mr-4 pl-1 border-l-2 border-dotted text-xs">
+                <div class="ml-10 mt-4 mr-4 pl-1 border-l-2 border-dotted text-xs // md:text-base">
                     hello there👋! <br>
-                    i'm <b>mitri di fozjer (madfozjer) aka fozjer</b> <br>
+                    i'm <b>mitri fozjer (madfozjer) aka fozjer</b> <br>
                     i'm <b>webdev && ux/gamedev</b> enthusiast💻. what does it mean❔    
                     that means i'm interested in <b>developing exceptional user experiences in forms of apps and videogames.</b>
                     i have a lot of ideas how to develop better products and i'm actively learning new skills to create this apps. 
                     in my free time i'm huge gamer (hero shooters, indie adventures) and i love analysing art and game design 🎦
                 </div>
                 <div id="contacts" class="ml-10 mt-2">
-                     contacts: 
+                     <div class="inline-block align-middle // md:text-xl">contacts: </div>
                     <a href="https://github.com/madfozjer" class="mt-8 inline"><img src="https://skillicons.dev/icons?i=github" class="inline"></a>
                     <a href="https://discord.com/users/512614204814000168" class="mt-8 inline"><img src="https://skillicons.dev/icons?i=discord" class="inline"></a>
                     <a href="https://x.com/secondvahn" class="mt-8 inline"><img src="https://skillicons.dev/icons?i=twitter" class="inline"></a>
@@ -43,7 +43,7 @@
                 <img src="https://skillicons.dev/icons?i=html">
                  <img src="https://skillicons.dev/icons?i=js">
                 <img src="https://skillicons.dev/icons?i=tailwind">
-                <span class="self-center text-xs"><a href="#front-end">(read more..)</a></span>
+                <span class="self-center text-xs // md:text-base"><a href="#front-end">(read more..)</a></span>
             </div>
         </div>
         <div class="place-self-center"></div>
@@ -51,39 +51,40 @@
             <div class="text-xl"><span class="text-blue-400">back-end</span> skills</div>
             <div class="flex gap-2 text-2xl xsm:text-red-500">
                 <img src="https://skillicons.dev/icons?i=nodejs">   
-                <span class="self-center text-xs"><a href="#back-end">(more info..)</a></span>
+                <span class="self-center text-xs // md:text-base"><a href="#back-end">(more info..)</a></span>
             </div>
         </div>
-        <div class="flex flex-col order-first mt-5 justify-center"> <!-- flex flex-col place-self-center  content-start // for pc -->
-            <div class="text-4xl self-center font-ubuntu" onmouseover="madfoz_hover(event)" onmouseleave="madfoz_leave(event)"><h1>madfoz<span class="text-4xl">j</span>er</h1></div>
-            <div class="text-xs self-center">ukrainian <span class="text-purple-400">webdev</span> && <span class="text-green-300">gamedev/ux</span> enthusiast 🎮</div>
+        <div class="flex flex-col order-first mt-10 justify-center"> <!-- flex flex-col place-self-center  content-start // for pc -->
+            <div class="text-4xl self-center font-ubuntu // md:text-6xl" onmouseover="madfoz_hover(event)" onmouseleave="madfoz_leave(event)"><h1>madfoz<span class="text-4xl // md:text-6xl">j</span>er</h1></div>
+            <div class="text-xs self-center align-middle // md:text-base">ukrainian <span class="text-purple-400">webdev</span> && <span class="text-green-300">gamedev/ux</span> enthusiast 🎮</div>
         </div>
         <div class="flex flex-col justify-between ml-10 border-0 border-l-2 gap-1 mt-5 p-0 pl-2">
             <div class="text-xl"><span class="text-red-400">additional</span> skills</div>
             <div class="flex gap-2 text-2xl">
                 <img src="https://skillicons.dev/icons?i=cs">
                 <img src="https://skillicons.dev/icons?i=linux">
-                <span class="self-center text-xs"><a href="#additional-skills">(and more..)</a></span>
+                <span class="self-center text-xs // md:text-base"><a href="#additional-skills">(and more..)</a></span>
             </div>
         </div>
         <div class="place-self-center"></div>
         <div class="place-self-center"></div>
         </main>
-        <div id="banner" class="h-auto pt-5 pb-5 .banner flex justify-center text-3xl mt-4"></div>
+        <div id="banner" class="h-auto pt-5 pb-5 .banner flex justify-center text-3xl mt-4 mb-2"></div>
     </div>
-    <div id="additional" class="mt-4">
-    <div id="current-setup" class="inline-block text-xs ml-4">
-        current setup: <img src="https://skillicons.dev/icons?i=html" class="inline"> 
-        <img src="https://skillicons.dev/icons?i=tailwind" class="inline"> 
-        <img src="https://skillicons.dev/icons?i=js" class="inline">
-        <img src="https://skillicons.dev/icons?i=nodejs" class="inline"> 
-        <img src="https://skillicons.dev/icons?i=nginx" class="inline"> <br>
-    </div> 
-    <div id="made-on setup" class="inline-block mt-2 text-xs ml-4">
-        made on:  <img src="https://skillicons.dev/icons?i=windows" class="inline"> 
-        <img src="https://skillicons.dev/icons?i=vscode" class="inline"> 
-        <img src="https://skillicons.dev/icons?i=github" class="inline">
-    </div> 
+    <div id="current-setup" class="inline-block ml-2 align-middle text-sm // md:text-2xl md:ml-4">
+        current setup: 
+        <img src="https://skillicons.dev/icons?i=html" class="inline max-w-8 // md:max-w-12"> 
+        <img src="https://skillicons.dev/icons?i=tailwind" class="inline max-w-8 // md:max-w-12"> 
+        <img src="https://skillicons.dev/icons?i=js" class="inline max-w-8 // md:max-w-12">
+        <img src="https://skillicons.dev/icons?i=nodejs" class="inline max-w-8 // md:max-w-12"> 
+        <img src="https://skillicons.dev/icons?i=nginx" class="inline max-w-8 // md:max-w-12">
+    </div> <br>
+    <div id="made-on" class="inline-block ml-2 mt-2 align-middle text-base // md:text-2xl md:ml-4">
+        made on:  
+        <img src="https://skillicons.dev/icons?i=windows" class="inline max-w-12"> 
+        <img src="https://skillicons.dev/icons?i=vscode" class="inline max-w-12"> 
+        <img src="https://skillicons.dev/icons?i=github" class="inline max-w-12">
+    </div>
     <div id="front-end" class="inline-block ml-4">
         <div class="text-2xl mt-6">FRONT-END SKILLS:</div>
         <div class="flex text-xl gap-2">
@@ -95,43 +96,44 @@
             <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" class="hidden"><img class="pl-1" src="https://skillicons.dev/icons?i=js"></a>
             <div class="font-light self-center" style="word-spacing: -2px;">- <b class="text-yellow-400">[<span class="text-white">JavaScript</span>]</b> my vanilla js skills are <b>basic</b>, but i'm quick learner</div>
         </div>
-        <div class="flex text-2xl gap-2 pt-2">
-            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img class="pl-1" src="https://skillicons.dev/icons?i=css"></a>
-            <div class="text-2xl font-light self-center" style="word-spacing: -8px;">[CSS3] i don't use css3 without libraries anymore, but my skills are <b>advanced</b> and ready to make pretty things</div>
+        <div class="flex text-xl gap-2 pt-2">
+            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" class="hidden"><img class="pl-1" src="https://skillicons.dev/icons?i=css"></a>
+            <div class="font-light self-center" style="word-spacing: -2px;">- <b class="text-blue-400">[<span class="text-white">CSS3</span>]</b>  i don't use css3 without libraries anymore, but my skills are <b>advanced</b> and ready to make pretty things</div>
         </div>
-        <div class="flex text-2xl gap-2 pt-2">
-            <a href="https://developer.mozilla.org/en-US/docs/Web/tailwind"><img class="pl-1" src="https://skillicons.dev/icons?i=tailwind"></a>
-            <div class="text-2xl font-light self-center" style="word-spacing: -8px;">[tailwindcss] i am on my way to master tailwind, but <b>my basics</b> are good</div>
+        <div class="flex text-xl gap-2 pt-2">
+            <a href="https://developer.mozilla.org/en-US/docs/Web/tailwind" class="hidden"><img class="pl-1" src="https://skillicons.dev/icons?i=tailwind"></a>
+            <div class="font-light self-center" style="word-spacing: -2px;">- <b class="text-blue-600">[<span class="text-white">tailwind</span>]</b>  i am on my way to master tailwind, but <b>my basics</b> are good</div>
         </div>
     </div>
-    <div id="back-end">
-        <div class="text-4xl pb-1 mt-5">BACK-END SKILLS:</div>
-        <div class="flex text-2xl gap-2">
-            <a href="https://developer.mozilla.org/en-US/docs/Web/nodejs"><img class="pl-1" src="https://skillicons.dev/icons?i=nodejs"></a>
-            <div class="text-2xl font-light self-center" style="word-spacing: -8px;">[node.js] i'm just starting my journey with node.js, but <b>basics</b>
+    <div id="back-end" class="inline-block ml-4">
+        <div class="text-2xl mt-6">BACK-END SKILLS:</div>
+        <div class="flex text-xl gap-2">
+            <a href="https://developer.mozilla.org/en-US/docs/Web/nodejs" class="hidden"><img class="pl-1" src="https://skillicons.dev/icons?i=nodejs"></a>
+            <div class="font-light self-center" style="word-spacing: -2px;">- <b class="text-green-600">[<span class="text-white">node.js</span>]</b> i'm just starting my journey with node.js, but <b>basics</b>
             for average not-back-end coder are covered.</div>
         </div>
     </div>
-    <div id="additional-skills">
-        <div class="text-4xl pb-1 mt-5">ADDITIONAL SKILLS:</div>
-        <div class="flex text-2xl gap-2">
-            <a href="https://developer.mozilla.org/en-US/docs/Web/nodejs"><img class="pl-1" src="https://skillicons.dev/icons?i=cs"></a>
-            <div class="text-2xl font-light self-center" style="word-spacing: -8px;">[C#] sometime ago i tried to learn pretty much all c languages, so i <b>familiar</b> with them</div>
+    <div id="additional-skills" class="inline-block ml-4">
+        <div class="text-2xl mt-6">ADDITIONAL SKILLS:</div>
+        <div class="flex text-xl gap-2">
+            <a href="https://developer.mozilla.org/en-US/docs/Web/nodejs" class="hidden"><img class="pl-1" src="https://skillicons.dev/icons?i=cs"></a>
+            <div class="font-light self-center" style="word-spacing: -2px">- <b class="text-purple-600">[<span class="text-white">C#</span>]</b> sometime ago i tried to learn pretty much all c languages, so i <b>familiar</b> with them</div>
         </div>
-        <div class="flex text-2xl gap-2">
-            <a href="https://developer.mozilla.org/en-US/docs/Web/nodejs"><img class="pl-1" src="https://skillicons.dev/icons?i=linux"></a>
-            <div class="text-2xl font-light self-center" style="word-spacing: -8px;">[Linux] i use linux from time to time, so i <b>familiar</b> with it</div>
+        <div class="flex text-xl gap-2">
+            <a href="https://developer.mozilla.org/en-US/docs/Web/nodejs" class="hidden"><img class="pl-1" src="https://skillicons.dev/icons?i=linux"></a>
+            <div class="font-light self-center" style="word-spacing: -2px;">- <b class="text-yellow-300">[<span class="text-white">Linux</span>]</b> i use linux from time to time, so i <b>familiar</b> with it</div>
         </div>
-        <div class="flex text-2xl gap-2">
-            <a href="https://developer.mozilla.org/en-US/docs/Web/nodejs"><img class="pl-1" src="https://skillicons.dev/icons?i=ps"></a>
-            <div class="text-2xl font-light self-center" style="word-spacing: -8px;">[design] i have <b>a lot of experince</b> in non-commercial design, not particularly in photoshop</div>
+        <div class="flex text-xl gap-2">
+            <a href="https://developer.mozilla.org/en-US/docs/Web/nodejs" class="hidden"><img class="pl-1" src="https://skillicons.dev/icons?i=ps"></a>
+            <div class="font-light self-center" style="word-spacing: -2px;">- <b class="text-purple-500">[<span class="text-white">design</span>]</b> i have <b>a lot of experince</b> in non-commercial design, not particularly in photoshop</div>
         </div>
-        <div class="flex text-2xl gap-2">
-            <a href="https://developer.mozilla.org/en-US/docs/Web/nodejs"><img class="pl-1" src="https://skillicons.dev/icons?i=git"></a>
-            <div class="text-2xl font-light self-center" style="word-spacing: -8px;">[git] <b>some practical experince</b> with git, enough for solo projects</div>
+        <div class="flex text-xl gap-2">
+            <a href="https://developer.mozilla.org/en-US/docs/Web/nodejs" class="hidden"><img class="pl-1" src="https://skillicons.dev/icons?i=git"></a>
+            <div class="font-light self-center" style="word-spacing: -2px;">- <b class="text-orange-500">[<span class="text-white">git</span>]</b> some practical experince</b> with git, enough for solo projects</div>
         </div>
-        <div class="flex text-1xl gap-2 mt-3">
-            <b>some more:</b> 3 + eng languages (ua, ru, pl), some experience with team leading and event organization (non-commercial) and a lot of patience. i'm funny too i guess.
+        <div class="flex flex-col text-base mt-3 mb-4">
+            <div class="text-xl"><b>some more:</b> </div>
+            <div class="text-sm font-light mr-2 // md:text-base">3 + eng languages (ua, ru, pl), some experience with team leading and event organization (non-commercial) and a lot of patience. i'm funny too i guess.</div>
         </div>
     </div>
     </div>
