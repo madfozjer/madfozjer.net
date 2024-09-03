@@ -3,7 +3,7 @@ const app = express();
 const path = require('path');
 const fs = require('fs');
 
-console.log(__dirname);
+console.log(__dirname); //delete this pls
 app.use('/static', express.static('public'));
 app.use(express.static(path.join(__dirname, "dist")))
 
