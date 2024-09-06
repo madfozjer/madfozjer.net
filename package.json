@@ -8,8 +8,7 @@
     "init-server": "start node index.js",
     "dev":"npm run init-server && npm run style "
   },
-  "author": "madfozjer",
-  "license": "UNLICENSED",
+  "license": "CC BY-SA 4.0",
   "devDependencies": {
     "tailwindcss": "^3.4.9",
     "webpack": "^5.93.0",
